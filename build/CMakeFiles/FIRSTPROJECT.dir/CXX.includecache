@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/C++_workspace/FirstProject/include/link_list.h
+
+F:/C++_workspace/FirstProject/src/link_list.cpp
+iostream
+-
+../include/link_list.h
+F:/C++_workspace/FirstProject/include/link_list.h
+
+F:/C++_workspace/FirstProject/src/main.cpp
+iostream
+-
+../include/link_list.h
+F:/C++_workspace/FirstProject/include/link_list.h
+
